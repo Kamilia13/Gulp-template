@@ -1,0 +1,92 @@
+.county{
+// min-width: 1400px;
+display: flex;
+
+  min-width: 100%;
+  margin: 0 auto;
+  height: 596px;
+  padding: 0 100px 0 100px;
+  background-color: #1C1C1C;
+  background-size: cover;
+  position: relative;
+   .one{
+       display: flex;
+       width: 100%;
+       align-items: center;
+        position: relative;
+        img{
+            width: 388px;
+            height: 169px;
+            position: relative;
+            
+        }
+        
+    }
+    .two{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        padding: 20px;
+       color: #FFFFFF;
+
+        .two2{
+            text-align: left;
+            font-size: 14px;
+            
+            hr.new1{
+            border: 1px solid #E27866;
+            width: 130px;   
+        }
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        }
+        i{
+   
+             background-color: #E27866;
+                opacity: 1;
+                 border-radius: 50%;
+                 padding: 10px;
+                 margin-right: 15px;
+                 width: 50px;
+                 height: 50px;
+                 align-items: center;
+                 font-size: 25px;
+                 text-align: center;
+            }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+
+        }
+
+        .list1, .list2{
+         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        }
+    }
+
+}
+
+@media(max-width: 900px){
+    .county{
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+        align-items: center;
+    }
+    .two{
+        display: flex;
+        
+    }
+}

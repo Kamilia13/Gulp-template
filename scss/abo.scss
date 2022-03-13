@@ -1,0 +1,161 @@
+ .co-containermain1 {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #6696E2;
+  background-size: cover;
+  position: relative;
+  min-height: 883px;
+  padding: 60px;
+
+ h2{
+  font-size: 36px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  
+ }
+
+ p{
+   color: #FFFFFF;
+   font-size: 14px;
+ }
+
+ hr{
+  border: 1px solid #41D395;
+
+ }
+ 
+
+  .content-3 {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ padding: 50px;
+
+
+ 
+
+ .leftright{
+
+
+  padding: 30px;
+  padding-top: 65px;
+    .up:nth-last-of-type(odd){
+      height: 210px;
+      width: 343px;
+      background: #383434;
+      color: #FFFFFF;
+      border-radius: 5px 5px 0px 0px;
+      padding: 10px;
+      
+      
+      
+    
+
+      ul{
+        align-items: center;
+        
+        
+        
+        li:nth-last-of-type(3){
+            font-size: 20px;
+            padding: 10px;
+            
+        }
+        li:nth-last-of-type(2){
+            font-size: 94px;
+            margin-bottom: 10px;
+        }
+        li:nth-last-of-type(1){
+            font-size: 14px;
+            color: #FFFFFF;
+            opacity: 50%;
+        }
+      }
+ }
+  .line{
+        width: 343px;
+        height: 6px;
+        background: #41D395;
+       
+      }
+ } 
+ 
+.middle{
+  
+
+
+    .mid{
+      height: 210px;
+      width: 343px;
+      background: #383434;
+      color: #FFFFFF;
+      border-radius: 5px 5px 0px 0px;
+      
+      
+      ul{
+        align-items: center;
+        
+        
+        li:nth-last-of-type(3){
+            font-size: 20px;
+            padding: 10px;
+            
+        }
+        li:nth-last-of-type(2){
+            font-size: 94px;
+            margin-bottom: 10px;
+        }
+        li:nth-last-of-type(1){
+            font-size: 14px;
+            color: #FFFFFF;
+            opacity: 50%;
+        }
+      }
+ }
+ } 
+.doubleline{
+        width: 343px;
+        height: 40px;
+        background: #41D395;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: #FFFFFF;
+        padding: 10px;
+      }
+
+
+.down{
+      height: 220px;
+      width: 343px;
+      background:  #FFFFFF;
+      color: #86878B;
+      border-radius: 0 0 5px 5px;   
+      
+
+      ul{
+        align-items: center;
+        
+        
+        li{
+            font-size: 14px;
+            padding: 10px;
+            
+        }
+       
+      }
+}
+}
+}
+
+@media(max-width:900px){
+  .leftright{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

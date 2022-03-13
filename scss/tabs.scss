@@ -1,0 +1,116 @@
+.tab{
+  min-width: 1400px;
+  width: 100%;
+  height: 596px;
+  background-image: url("/app/images/mountains.png");
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  padding: 100px 100px 100px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+
+  &:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(to left, #6696E2, #E27866);
+    background-size: cover;
+    opacity: 42%;
+  }
+  }
+  
+// Text Tab
+
+.texttab{
+     display: flex;
+     flex-wrap: wrap ;
+   
+    flex-direction: column;
+    align-items: right;
+    position: absolute;
+    width: 100%;
+  max-width: 509px;
+
+  
+
+  
+  color: white;
+margin-left: 160px;
+
+
+  h2{
+      font-size: 36px;
+      align-items: left;
+      margin-bottom: 30px;
+     padding-top: 45px;
+     text-align:start
+      
+      
+  }
+  p{
+      font-size: 14px;
+      margin-bottom: 30px;
+       text-align: justify;
+  }
+ 
+}
+
+
+
+
+
+
+  
+// Tabs
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    
+
+  button {
+  width: 100px;
+  line-height: 100px;
+  background: #A37169;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  transition: 0.3s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+  h2{
+    font-size: 18px;
+    transform: rotate(-45deg);
+    position: relative;
+    
+    
+  }
+button:hover {
+  cursor: pointer;
+
+}
+
+.active {
+  background: #E27866;
+} 
+  
+}
+}
+
+
+
+
+
+

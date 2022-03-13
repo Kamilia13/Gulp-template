@@ -1,0 +1,141 @@
+.upper-footer{
+  background: #E27866;
+  background-size: cover;
+  height: 573px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  p{
+   padding-bottom: 30px;
+   font-size: 14px;
+  }
+  h2{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  
+}
+
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  width: 390px;
+  height: 314px;
+  color: #00000029;
+  text-align: left;
+
+
+
+  .button{
+  background-color: #41D395;
+  border: none;
+  animation: none;
+  text-align: center;
+  height: 48px;
+  width: 158px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+
+  &.button:hover{
+    color: #41D395;
+    background: #FFFFFF;
+    border: 2px solid #41D395;
+  }
+}
+ul{
+    li{
+        padding: 10px;
+    }
+    hr.new2, hr.new3,
+    hr.new4{
+        border: 1px solid #D8D8D8;
+    }
+}
+}
+
+
+
+.radio-inputs{
+display: flex;
+margin-left: 15px;
+
+}
+.radio-input{
+display: flex;
+margin-right: 20px;
+}
+
+.button-left{
+    align-items: center;
+}
+
+// 
+
+input[type="radio" ]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+     border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #41D395;
+  color: #1C1C1C;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+// 
+input:checked{
+  border: 2px solid #41D395;
+ 
+}
+// 
+
+label{
+  color: #1C1C1C;
+}
+
+
+input[type="radio"],
+input[type="radio"] + label{
+    cursor: pointer;
+    
+}
+
+input[type="radio"]::before{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    content:"";
+    width: 12px;
+    height: 12px;
+    background: #41D395;
+    border-radius: 50%;
+    transition: 0.3s;
+    transform: scale(0);
+
+}
+input[type="radio"]:checked::before{
+      transform: scale(1); 
+      color: #333333;
+
+}
+label[type="radio"]:checked{
+      transform: scale(1); 
+
+}
