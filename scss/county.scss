@@ -72,6 +72,7 @@ display: flex;
          display: flex;
         justify-content: flex-start;
         align-items: center;
+        position: relative;
 
         }
     }
@@ -84,6 +85,23 @@ display: flex;
         flex-wrap: wrap;
         height: 700px;
         align-items: center;
+        margin: 0 auto;
+        position: relative;
+    }
+    .list1, .list2{
+         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+
+        }
+    .one{
+        display: flex;
+        
+        img{
+            font-size: 20px;
+        }
+        
     }
     .two{
         display: flex;

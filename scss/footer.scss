@@ -74,3 +74,11 @@ img{
   
 }
 }
+
+@media(max-with: 768px) {
+ .footer2{
+  .logos{
+      display: hidden;
+    }
+ }   
+}
